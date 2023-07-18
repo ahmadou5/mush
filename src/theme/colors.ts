@@ -4,6 +4,7 @@ import { opacify } from './utils'
 export const colors = {
   white: '#FFFFFF',
   black: '#000000',
+  blue1: "#0066FF",
   gray50: '#F5F6FC',
   gray100: '#E8ECFB',
   gray150: '#D2D9EE',
@@ -137,7 +138,7 @@ export const darkTheme = {
 
   userThemeColor: colors.magentaVibrant,
 
-  background: colors.gray800,
+  background: colors.white,
   backgroundBackdrop: colors.gray950,
   backgroundSurface: colors.gray900,
   backgroundModule: colors.gray800,
@@ -181,7 +182,7 @@ export const darkTheme = {
   stateOverlayPressed: opacify(24, colors.gray200),
 
   searchBackground: `rgba(255,255,255,0.07)`,
-  searchOutline: `rgba(255,255,255,0.07)`,
+  searchOutline: `rgba(255,255,255,0.07)`, 
 }
 
 export const lightTheme: Theme = {
